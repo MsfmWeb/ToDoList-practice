@@ -1,3 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.l-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.c-block {
+  min-height: 150px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.p-form {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background: royalblue;
+}
+
+.p-incomplete {
+  background: lightgrey;
+}
+
+.p-complete {
+  background: lightseagreen;
 }

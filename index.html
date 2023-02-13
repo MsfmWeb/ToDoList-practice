@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
 
-<head>
-	<title>Parcel Sandbox</title>
-	<meta charset="UTF-8" />
-</head>
+  <body>
+    <div class="l-container">
+      <div class="c-input">
+        <p class="c-input_titile">ToDo List</p>
+        <input type="text" class="c-input_text" />
+        <button type="button" class="c-input_button">追加する</button>
+      </div>
+      <div class="c-todo-box">
+        <ul>
+          <li>
+            <div class="u-row">
+              <p>未完了todo</p>
+              <button>完了</button>
+              <button>削除</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="c-todo-box">
+        <ul>
+          <li>
+            <div>
+              <p>完了したtodo</p>
+              <button>未完了に戻す</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-<body>
-	<div id="app"></div>
-
-	<script src="src/index.js">
-	</script>
-</body>
-
+    <script src="src/index.js"></script>
+  </body>
 </html>
